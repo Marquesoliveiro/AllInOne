@@ -1,0 +1,14 @@
+D:\VSStudio\révision\révision\bin\Debug\net8.0\révision.exe
+D:\VSStudio\révision\révision\bin\Debug\net8.0\révision.deps.json
+D:\VSStudio\révision\révision\bin\Debug\net8.0\révision.runtimeconfig.json
+D:\VSStudio\révision\révision\bin\Debug\net8.0\révision.dll
+D:\VSStudio\révision\révision\bin\Debug\net8.0\révision.pdb
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.AssemblyInfoInputs.cache
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.AssemblyInfo.cs
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.csproj.CoreCompileInputs.cache
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.dll
+D:\VSStudio\révision\révision\obj\Debug\net8.0\refint\révision.dll
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.pdb
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.genruntimeconfig.cache
+D:\VSStudio\révision\révision\obj\Debug\net8.0\ref\révision.dll
