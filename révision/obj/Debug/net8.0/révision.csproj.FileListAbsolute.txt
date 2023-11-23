@@ -12,3 +12,4 @@ D:\VSStudio\révision\révision\obj\Debug\net8.0\refint\révision.dll
 D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.pdb
 D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.genruntimeconfig.cache
 D:\VSStudio\révision\révision\obj\Debug\net8.0\ref\révision.dll
+D:\VSStudio\révision\révision\obj\Debug\net8.0\révision.sourcelink.json
