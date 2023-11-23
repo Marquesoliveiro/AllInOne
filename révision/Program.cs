@@ -65,11 +65,6 @@ while (true)
                 int userGuess;
 
 
-
-
-
-
-
                 while (true)
                 {
                     Console.WriteLine($"-------------------------------------------------------\nPARAMETRES DU JEU\n-------------------------------------------------------");
@@ -106,7 +101,7 @@ while (true)
 
                             do
                             {
-                                Console.WriteLine("GUESS UN UN NOMBRE");
+                                Console.WriteLine("GUESS UN NOMBRE");
                             } while (!int.TryParse(Console.ReadLine(), out userGuess));
 
 
@@ -156,7 +151,72 @@ while (true)
 
 
         case 2:
-            Console.WriteLine("Vous avez choisi l'Application numéro {1}, {0}", "Calculatrice", Applications["Calculatrice"]);
+            
+            Console.Write("Vous avez choisi l'Application numéro {1}, {0}\n\nEinstein, tu veux commencer à calculer ou revenir en arrière (r/2)? ", "Calculatrice", Applications["Calculatrice"]);
+
+            int calculeType;
+
+            
+            string gameCalc = Console.ReadLine();
+            if (gameCalc == "r" || gameCalc == "R" || gameCalc == "2")
+            {
+                break;
+            }
+            else
+            {
+                int nombre1;
+                int nombre2;
+                char symbol;
+
+                do Console.WriteLine($"Quel type de calcul veux-tu faire?\n1. Addition\n2. Soustraction\n3. Multiplication\n4. Division\n5. Racine carré\n6. Puissance 2\n7. Aire d'un triangle");
+
+                while (!int.TryParse(Console.ReadLine(), out calculeType));
+
+                switch (calculeType)
+                {
+                    case 1:
+                        Console.WriteLine("1");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("2");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("3");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("4");
+                        break;
+
+                    case 5:
+                        Console.WriteLine("5");
+                        break;
+
+                    case 6:
+                        Console.WriteLine("6");
+                        break;
+
+                    case 7:
+                        Console.WriteLine("7");
+                        break;
+                    default:
+                        Console.WriteLine("pas valide mon boeuf");
+                        break;
+
+                }
+
+
+
+
+
+
+
+
+
+
+            }
 
 
 
@@ -172,8 +232,7 @@ while (true)
 
 
 
-
-            break;
+                break;
         default:
             Console.WriteLine("Choix invalide. Veuillez choisir un numéro d'application valide.");
             break;
