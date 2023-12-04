@@ -9,7 +9,7 @@ don't.
 
 
 ## History
-Will show 5 latest updates only.
+Last 5 updates only.
 
 v0.3
  - Added bone structure for the 2nd game "Calculatrice"
